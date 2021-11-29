@@ -110,6 +110,27 @@ class QrScannerOverlayShape extends ShapeBorder {
       _cutOutHeight - borderOffset * 2,
     );
 
+    print("Width");
+    print(width);
+    print("Height");
+    print(height);
+    print("CutOutWidth");
+    print(_cutOutWidth);
+    print("CutOutHeight");
+    print(_cutOutHeight);
+
+    print("backgroundPaint");
+    print(backgroundPaint);
+    print("borderPaint");
+    print(borderPaint);
+    print("boxPaint");
+    print(boxPaint);
+
+
+    print("CutOutRect");
+    print(cutOutRect);
+
+
     canvas
       ..saveLayer(
         rect,
